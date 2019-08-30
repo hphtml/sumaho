@@ -1,0 +1,211 @@
+
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------リセット----*/
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.section-title {
+    text-align: center;
+    font-weight: normal;
+    
+    line-height: 75px;
+}
+
+
+p {
+    line-height: 2;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+/*------------kyoutu--------------------*/
+
+body {
+    background: #f8f8f8;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+header{
+    background-color: #C0C0C0;
+    
+}
+
+header h1{
+   margin-top: 0;
+   display: inline-block;
+   line-height:65px;
+   margin-bottom: 0;
+}
+
+header ul{
+    float: right;
+    padding: 5px;
+    display: inline-block;
+}
+
+header ul li{
+    float: left;
+    padding-left: 5px;
+}
+
+header a{
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+/*--header end--*/
+
+.features{
+padding-bottom: 50px;
+}
+
+.feature img {
+    width: 100%;
+}
+  
+.feature:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+/*-----feature end----------------*/
+  
+.news{
+    background-color:  #ccc;
+    padding-bottom: 50px;
+}
+
+
+
+.news-item img {
+    width: 100%;
+}
+  
+.news-item:not(:last-child) {
+    margin-bottom: 60px;
+}
+  
+
+.how-to-use iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .how-to-use .iframe-wrapper {
+    padding-bottom: 56.25%;
+    height: 0;
+    position: relative;
+  }
+
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    color: 	#C0C0C0;
+}
+
+@media(min-width:544px){
+
+    .feature img{
+         width: 50%;
+    }
+
+    .feature p{
+        width: 45%;
+    }
+
+    .feature:nth-of-type(odd) p{
+       float: right;
+padding-left: 5%;
+    }
+
+    .feature:nth-of-type(even) p{
+        float: left;
+        padding-right: 5%;
+    }
+
+    .news .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .news-item {
+        width: 30%;
+        
+      }
+
+
+
+      
+}
+
+@media(min-width:768px){
+
+}
